@@ -108,7 +108,7 @@ nav a { text-decoration: none; }
         #desktop { display: inline; }
 
         #homehero, #yurthero, #trailhero { background-size: 100% 100%; }
-}
+        }
 
 @media screen and (min-width: 1024px) {
 
@@ -119,4 +119,17 @@ nav a { text-decoration: none; }
 
         #wrapper { width: 80%;
                 margin: auto; }
-}
+        }
+table { margin: auto;
+        border: 1px solid #3399CC;
+        width: 90%;
+        border-collapse: collapse;
+        }
+td, th { padding: 5px; 
+        border: 1px solid #3399CC; }
+td { text-align: center; 
+   }
+.text { text-align: left; 
+        }
+tr:nth-of-type(even) { background-color: #DFEDF8; 
+                }
